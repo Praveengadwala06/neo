@@ -1,0 +1,27 @@
+2026-03-13 17:46:46,870 - INFO - Starting data ingestion
+2026-03-13 17:46:46,894 - INFO - CSV file loaded
+2026-03-13 17:46:46,964 - INFO - Error occurred: Cannot save file into a non-existent directory: '..\data\processed'
+2026-03-13 17:47:04,970 - INFO - Starting data ingestion
+2026-03-13 17:47:04,977 - INFO - CSV file loaded
+2026-03-13 17:50:38,218 - INFO - Starting data ingestion
+2026-03-13 17:50:38,221 - INFO - Error occurred: [Errno 2] No such file or directory: '../data/raw/server_logs.csv'
+2026-03-13 17:51:19,703 - INFO - Starting data ingestion
+2026-03-13 17:51:19,718 - INFO - CSV file loaded
+2026-03-13 17:52:53,568 - INFO - Starting data ingestion
+2026-03-13 17:52:53,589 - INFO - CSV file loaded
+2026-03-13 17:53:08,624 - INFO - Starting data ingestion
+2026-03-13 17:53:08,629 - INFO - CSV file loaded
+2026-03-13 17:53:09,019 - INFO - Detected 20 anomalies
+2026-03-13 17:53:09,023 - INFO - Anomalies corrected with median values
+2026-03-13 18:13:11,139 - INFO - Starting data ingestion
+2026-03-13 18:13:11,172 - INFO - CSV file loaded
+2026-03-13 18:13:11,558 - INFO - Detected 20 anomalies
+2026-03-13 18:13:11,562 - INFO - Anomalies corrected with median values
+2026-03-13 19:14:54,657 - INFO - Starting data ingestion
+2026-03-13 19:14:54,706 - INFO - CSV file loaded
+2026-03-13 19:14:55,044 - INFO - Detected 20 anomalies
+2026-03-13 19:14:55,048 - INFO - Anomalies corrected with median values
+2026-03-13 19:15:31,280 - INFO - Starting data ingestion
+2026-03-13 19:15:31,285 - INFO - CSV file loaded
+2026-03-13 19:15:31,511 - INFO - Detected 20 anomalies
+2026-03-13 19:15:31,513 - INFO - Anomalies corrected with median values
