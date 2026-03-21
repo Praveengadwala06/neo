@@ -5,8 +5,8 @@ import os
 def connect_azure():
     server = os.getenv('AZURE_SQL_SERVER', 'praveensql.database.windows.net')
     database = os.getenv('AZURE_SQL_DATABASE', 'server-monitoring-db')
-    username = os.getenv('AZURE_SQL_USERNAME', 'azureadmin')
-    password = os.getenv('AZURE_SQL_PASSWORD', 'Praveen@9390')
+    username = os.getenv('AZURE_SQL_USERNAME', '')
+    password = os.getenv('AZURE_SQL_PASSWORD', '')
     
     conn = pyodbc.connect(
         f"DRIVER={{ODBC Driver 18 for SQL Server}};"
