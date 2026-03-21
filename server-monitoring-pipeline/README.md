@@ -54,8 +54,8 @@ Server Logs CSV → Python Pipeline → Data Transformation → Azure SQL Databa
    # Copy .env file or set manually:
    set AZURE_SQL_SERVER=praveensql.database.windows.net
    set AZURE_SQL_DATABASE=server-monitoring-db
-   set AZURE_SQL_USERNAME=azureadmin
-   set AZURE_SQL_PASSWORD=Praveen@9390
+   set AZURE_SQL_USERNAME=   """"""
+   set AZURE_SQL_PASSWORD=   """"""
    ```
 
 5. **Run the pipeline**
