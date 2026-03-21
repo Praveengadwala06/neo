@@ -8,10 +8,10 @@ load_dotenv()
 def verify_data():
     """Verify data in Azure SQL Database"""
     
-    server = os.getenv('AZURE_SQL_SERVER', 'praveensql.database.windows.net')
+    server = os.getenv('AZURE_SQL_SERVER', '')
     database = os.getenv('AZURE_SQL_DATABASE', 'server-monitoring-db')
-    username = os.getenv('AZURE_SQL_USERNAME', 'azureadmin')
-    password = os.getenv('AZURE_SQL_PASSWORD', 'Praveen@9390')
+    username = os.getenv('AZURE_SQL_USERNAME', '')
+    password = os.getenv('AZURE_SQL_PASSWORD', '')
     
     try:
         conn = pyodbc.connect(
