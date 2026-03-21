@@ -161,8 +161,8 @@ server-monitoring-pipeline/
 ```
 Server: praveensql.database.windows.net
 Database: server-monitoring-db
-Username: azureadmin
-Password: Praveen@9390
+Username: 
+Password: 
 Driver: ODBC Driver 18 for SQL Server
 ```
 
@@ -268,7 +268,7 @@ See `requirements.txt` for complete list.
 ### SQL Server
 - **Name:** praveensql
 - **FQDN:** praveensql.database.windows.net
-- **Admin User:** azureadmin
+- **Admin User:** 
 - **Firewall Rules:**
   - ✓ Allow Azure Services
   - ✓ Allow Your IP
@@ -370,7 +370,7 @@ See `requirements.txt` for complete list.
 pip install pyodbc
 ```
 
-**Issue:** "Login failed for user 'azureadmin'@'praveensql'"
+**Issue:** "Login failed for user ''@''"
 - Verify credentials in .env
 - Check firewall rules allow your IP
 - Ensure password is correct
